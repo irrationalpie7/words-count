@@ -72,10 +72,3 @@ const wordsSplit = (text, config = {}) => {
 	const { words } = wordsDetect(text, config);
 	return words;
 }
-
-export default wordsCount;
-export {
-	wordsCount,
-	wordsSplit,
-	wordsDetect
-};
